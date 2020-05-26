@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99e92ceb800d41a488dd8883cdbf252c, type: 3}
+  m_Name: Orange Flock Behavior
+  m_EditorClassIdentifier: 
+  behaviors:
+  - {fileID: 11400000, guid: f3941c21b0795874fa6b85c97c6e951d, type: 2}
+  - {fileID: 11400000, guid: 3769474153b8b4d45be4afb320a694e5, type: 2}
+  - {fileID: 11400000, guid: 8fab50bc16288cd46939a8af21a920cd, type: 2}
+  - {fileID: 11400000, guid: c55130e1662979443b547a7938d1d320, type: 2}
+  - {fileID: 11400000, guid: d716e64d0eb28c9419accf0df6cf1974, type: 2}
+  weights:
+  - 4
+  - 1
+  - 2
+  - 0.5
+  - 5
